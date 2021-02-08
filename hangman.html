@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nocno radiowe szarady</title>
+    <link rel="stylesheet" href="/OOPJS/hangman/hangman.css">
+</head>
+<body>
+    <section id="hangman">
+        <h1 class="title">NocnoRadiowe Szarady</h1>
+        <h2 class="notes">(WŁĄCZ GŁOŚNIKI)</h2>
+        <div id="output">
+            <div class="step"><img src="/OOPJS/hangman/images/E1.png" alt=""></div>
+            <div class="step"><img src="/OOPJS/hangman/images/E2.png" alt=""></div>
+            <div class="step"><img src="/OOPJS/hangman/images/E3.png" alt=""></div>
+            <div class="step"><img src="/OOPJS/hangman/images/E4.png" alt=""></div>
+            <div class="step"><img src="/OOPJS/hangman/images/E5.png" alt=""></div>
+            <div class="step"><img src="/OOPJS/hangman/images/E6.png" alt=""></div>
+            <div class="step"><img src="/OOPJS/hangman/images/E7.png" alt=""></div>
+            <div class="step"><img src="/OOPJS/hangman/images/E8.png" alt=""></div>
+        </div>
+        <div id="word"></div>
+        <div id="category"></div>
+        <div id="letters"></div>
+        <button class="refreshBtn" onClick="location.reload(true)">ODŚWIEŻ</button>
+        <audio autoplay>
+            <source src="./audio/Start.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="win">
+            <source src="./audio/EndShort.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="lose">
+            <source src="./audio/EndLong.mp3" type="audio/mpeg">
+        </audio>
+        <h5 class="credits">by emarcins</h5>
+
+    </section>
+    
+    <script src="/OOPJS/hangman/hangman.js" type="module"></script>
+</body>
+</html>
