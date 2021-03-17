@@ -4,7 +4,7 @@
 
 There's a small game which is very simalar to "whole of Fortune" .
 Game was written in vanilla.js and *works without Safari support on mobile!*
-`<addr>`The language of the game is Polish and it refers to nocneradio.pl community.
+The language of the game is Polish and it refers to nocneradio.pl community.
 
 **Feel free to play and have fun!**
 
